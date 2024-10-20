@@ -94,8 +94,8 @@
 		18AF700E2CC52F2200A15A05 /* selfMax */ = {
 			isa = PBXGroup;
 			children = (
+				18AF70392CC52FE400A15A05 /* Views */,
 				18AF700F2CC52F2200A15A05 /* selfMaxApp.swift */,
-				18AF70112CC52F2200A15A05 /* ContentView.swift */,
 				18AF70132CC52F2300A15A05 /* Assets.xcassets */,
 				18AF70152CC52F2300A15A05 /* Preview Content */,
 			);
@@ -125,6 +125,38 @@
 				18AF702C2CC52F2300A15A05 /* selfMaxUITestsLaunchTests.swift */,
 			);
 			path = selfMaxUITests;
+			sourceTree = "<group>";
+		};
+		18AF70392CC52FE400A15A05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18AF703A2CC52FF800A15A05 /* Models */,
+				18AF703B2CC5300500A15A05 /* ViewModels */,
+				18AF703C2CC5301800A15A05 /* Utilities */,
+				18AF70112CC52F2200A15A05 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18AF703A2CC52FF800A15A05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18AF703B2CC5300500A15A05 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18AF703C2CC5301800A15A05 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
